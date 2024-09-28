@@ -2,7 +2,7 @@ defmodule NervesSystemRpi4.MixProject do
   use Mix.Project
 
   @github_organization "nerves-project"
-  @app :nerves_system_rpi4_alsa_midi_3
+  @app :nerves_system_rpi4_alsa_midi_4
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
